@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 550px;
+  min-width: 300px;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.addTodoItem {
+  margin-bottom: 20px;
+  padding: 17px;
+  border-radius: 5px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.items {
+  background-color: white;
+  word-wrap: break-word;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sortingFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+.sortIsActive {
+  span {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+}
